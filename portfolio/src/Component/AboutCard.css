@@ -1,0 +1,65 @@
+.about{
+    margin-top: 70px;
+    text-align: center;
+}
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px; 
+    box-sizing: border-box; 
+  }
+  
+  .about-us-content {
+    width: 100%;
+    max-width: 800px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.349);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+    padding: 40px;
+    color: var(--text-color);
+    margin: 0 20px;
+  }
+  
+  .about-us-content:hover {
+    background-color: var(--second-bg-color);
+    color: var(--main-color);
+    border: 5px solid var(--main-color);
+    transform: scale(1.02);
+  }
+  
+  .about-us-banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; 
+  }
+  
+  .about-us-banner h1 {
+    font-size: 3.5rem; 
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .about-us-banner p {
+    font-size: 1.4rem; 
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .about-image img {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
